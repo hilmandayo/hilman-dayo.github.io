@@ -1,7 +1,7 @@
 #+BEGIN_COMMENT
 .. title: Kenapa Programming?
 .. slug: kenapa-programming
-.. date: 2018-06-29 19:23:13 UTC+08:00
+.. date: 2018-08-19 17:34:13 UTC+08:00
 .. tags: pengenalan
 .. categotype: text
 .. author: Mohd Hafiz Hilman
