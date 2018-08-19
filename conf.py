@@ -1370,7 +1370,7 @@ GLOBAL_CONTEXT_FILLER = []
 # jidn settings.
 GLOBAL_CONTEXT.update({
     "JIDN": {"Mohd Hafiz Hilman": {
-        "image": "defpython/images/hafiz_hilman.jpg",
+        "image": "defpython.io/images/hafiz_hilman.jpg",
         "bio": "Malaysian * Muslim + (Japanese, Programming, Knowledge) * nerd",
         "map": "Saitama, Japan",
         "social": (
