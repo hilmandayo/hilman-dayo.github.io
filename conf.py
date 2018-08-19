@@ -21,7 +21,7 @@ BLOG_AUTHOR = "defpythonistas"  # (translatable)
 BLOG_TITLE = "defpython.io"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://example.com/"
+SITE_URL = ""
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
@@ -59,7 +59,7 @@ BLOG_DESCRIPTION = "def python(): return"  # (translatable)
 # ja        Japanese [NOT jp]
 # ko        Korean
 # lt        Lithuanian
-# nb        Norwegian (Bokmål)
+# nb        Norwegian (Bokm å l)
 # nl        Dutch
 # pa        Punjabi
 # pl        Polish
@@ -128,9 +128,9 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 #          may present issues if the menu is too large.
 #          (in bootstrap3, the navbar can grow too large and cover contents.)
 # WARNING: If you link to directories, make sure to follow
-#          ``STRIP_INDEXES``.  If it’s set to ``True``, end your links
+#          ``STRIP_INDEXES``.  If it ’ s set to ``True``, end your links
 #          with a ``/``, otherwise end them with ``/index.html`` — or
-#          else they won’t be highlighted when active.
+#          else they won ’ t be highlighted when active.
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
@@ -223,7 +223,7 @@ TIMEZONE = "Asia/Kuala_Lumpur"
 #
 # 0 = using DATE_FORMAT and TIMEZONE
 # 1 = using JS_DATE_FORMAT and local user time (via moment.js)
-# 2 = using a string like “2 days ago”
+# 2 = using a string like “ 2 days ago ”
 #
 # Your theme must support it, bootstrap and bootstrap3 already do.
 # DATE_FANCINESS = 0
@@ -415,7 +415,7 @@ POSTS_SECTIONS = True
 
 # Set descriptions for tag pages to make them more interesting. The
 # default is no description. The value is used in the meta description
-# and displayed underneath the tag list or index page’s title.
+# and displayed underneath the tag list or index page ’ s title.
 # TAG_PAGES_DESCRIPTIONS = {
 #    DEFAULT_LANG: {
 #        "blogging": "Meta-blog posts about blogging about blogging.",
@@ -484,7 +484,7 @@ CATEGORY_OUTPUT_FLAT_HIERARCHY = False
 
 # Set descriptions for category pages to make them more interesting. The
 # default is no description. The value is used in the meta description
-# and displayed underneath the category list or index page’s title.
+# and displayed underneath the category list or index page ’ s title.
 # CATEGORY_PAGES_DESCRIPTIONS = {
 #    DEFAULT_LANG: {
 #        "blogging": "Meta-blog posts about blogging about blogging.",
@@ -532,7 +532,7 @@ HIDDEN_CATEGORIES = []
 
 # Set descriptions for author pages to make them more interesting. The
 # default is no description. The value is used in the meta description
-# and displayed underneath the author list or index page’s title.
+# and displayed underneath the author list or index page ’ s title.
 # AUTHOR_PAGES_DESCRIPTIONS = {
 #    DEFAULT_LANG: {
 #        "Juanjo Conti": "Python coder and writer.",
@@ -551,7 +551,7 @@ HIDDEN_AUTHORS = ['Guest']
 # (translatable)
 # INDEX_PATH = ""
 
-# Optional HTML that displayed on “main” blog index.html files.
+# Optional HTML that displayed on “ main ” blog index.html files.
 # May be used for a greeting. (translatable)
 FRONT_INDEX_HEADER = {
     DEFAULT_LANG: ''
@@ -590,8 +590,8 @@ FRONT_INDEX_HEADER = {
 # If USE_BASE_TAG is True, then all HTML files will include
 # something like <base href=http://foo.var.com/baz/bat> to help
 # the browser resolve relative links.
-# Most people don’t need this tag; major websites don’t use it. Use
-# only if you know what you’re doing. If this is True, your website
+# Most people don ’ t need this tag; major websites don ’ t use it. Use
+# only if you know what you ’ re doing. If this is True, your website
 # will not be fully usable by manually opening .html files in your web
 # browser (`nikola serve` or `nikola auto` is mandatory). Also, if you
 # have mirrors of your site, they will point to SITE_URL everywhere.
@@ -676,7 +676,7 @@ GITHUB_COMMIT_SOURCE = True
 # argument.
 #
 # By default, only .php files uses filters to inject PHP into
-# Nikola’s templates. All other filters must be enabled through FILTERS.
+# Nikola ’ s templates. All other filters must be enabled through FILTERS.
 #
 # Many filters are shipped with Nikola. A list is available in the manual:
 # <https://getnikola.com/handbook.html#post-processing-filters>
@@ -810,8 +810,8 @@ GITHUB_COMMIT_SOURCE = True
 #
 #   .. image:: /images/tesla.jpg
 #
-# See the Nikola Handbook for details (in the “Embedding Images” and
-# “Thumbnails” sections)
+# See the Nikola Handbook for details (in the “ Embedding Images ” and
+# “ Thumbnails ” sections)
 
 # Images will be scaled down according to IMAGE_THUMBNAIL_SIZE and MAX_IMAGE_SIZE
 # options, but will have to be referenced manually to be visible on the site
@@ -898,15 +898,15 @@ IMAGE_FOLDERS = {'images': 'images'}
 # )
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
-# INDEX_TEASERS = False
+INDEX_TEASERS = True
 
 # HTML fragments with the Read more... links.
 # The following tags exist and are replaced for you:
 # {link}                        A link to the full post page.
-# {read_more}                   The string “Read more” in the current language.
+# {read_more}                   The string “ Read more ” in the current language.
 # {reading_time}                An estimate of how long it will take to read the post.
 # {remaining_reading_time}      An estimate of how long it will take to read the post, sans the teaser.
-# {min_remaining_read}          The string “{remaining_reading_time} min remaining to read” in the current language.
+# {min_remaining_read}          The string “{remaining_reading_time} min remaining to read ” in the current language.
 # {paragraph_count}             The amount of paragraphs in the post.
 # {remaining_paragraph_count}   The amount of paragraphs in the post, sans the teaser.
 # {post_title}                  The title of the post.
@@ -983,7 +983,7 @@ COMMENT_SYSTEM = "disqus"
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
 # is in the manual.
-COMMENT_SYSTEM_ID = ""
+COMMENT_SYSTEM_ID = "defpython"
 
 # Enable annotations using annotateit.org?
 # If set to False, you can still enable them for individual posts and pages
@@ -1346,7 +1346,7 @@ UNSLUGIFY_TITLES = True
 # this option to True will prevent it.
 # NO_DOCUTILS_TITLE_TRANSFORM = False
 
-# If you don’t like slugified file names ([a-z0-9] and a literal dash),
+# If you don ’ t like slugified file names ([a-z0-9] and a literal dash),
 # and would prefer to use all the characters your file system allows.
 # USE WITH CARE!  This is also not guaranteed to be perfect, and may
 # sometimes crash Nikola, your web server, or eat your cat.
@@ -1369,7 +1369,17 @@ GLOBAL_CONTEXT_FILLER = []
 # From now onwards will be the settings for the themes and plugins.
 # jidn settings.
 GLOBAL_CONTEXT.update({
-    "JIDN": {},  # Extra info about authors
+    "JIDN": {"Mohd Hafiz Hilman": {
+        "image": "defpython/images/hafiz_hilman.jpg",
+        "bio": "Malaysian * Muslim + (Japanese, Programming, Knowledge) * nerd",
+        "map": "Saitama, Japan",
+        "social": (
+            "https://www.facebook.com/hafiz.sofian.3",
+            "https://twitter.com/hilman_dayo",
+            "https://www.instagram.com/dayo_hilman/",
+            "https://github.com/hilman-dayo",
+        )
+    }},  # Extra info about authors
     # "JIDN-theme": "theme-base-blue",
 })
 

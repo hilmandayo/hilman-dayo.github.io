@@ -81,6 +81,7 @@
     ("perl" . "perl")
     ("picolisp" . "scheme")
     ("python" . "python")
+    ("ipython" . "python")
     ("r" . "r")
     ("ruby" . "ruby")
     ("sass" . "sass")
