@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>/</loc>
-  <lastmod>2018-08-19T08:50:00Z</lastmod>
+  <lastmod>2018-11-25T07:02:00Z</lastmod>
  </url>
  <url>
   <loc>/2018/</loc>
@@ -15,7 +15,7 @@
  </url>
  <url>
   <loc>/archive.html</loc>
-  <lastmod>2018-08-19T09:33:00Z</lastmod>
+  <lastmod>2018-11-25T07:05:00Z</lastmod>
  </url>
  <url>
   <loc>/categories/</loc>
@@ -36,11 +36,10 @@
  <url>
   <loc>/pages/about/</loc>
   <lastmod>2018-05-01T06:10:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="pages/about/" />
  </url>
  <url>
   <loc>/posts/kenapa-programming/</loc>
-  <lastmod>2018-06-29T11:24:00Z</lastmod>
+  <lastmod>2018-11-25T06:58:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="posts/kenapa-programming/" />
  </url>
 </urlset>
