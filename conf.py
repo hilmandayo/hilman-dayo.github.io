@@ -1370,7 +1370,7 @@ GLOBAL_CONTEXT_FILLER = []
 # jidn settings.
 GLOBAL_CONTEXT.update({
     "JIDN": {"Mohd Hafiz Hilman": {
-        "image": "defpython.io/images/hafiz_hilman.jpg",
+        "image": "/images/hafiz_hilman.jpg",
         "bio": "Malaysian * Muslim + (Japanese, Programming, Knowledge) * nerd",
         "map": "Saitama, Japan",
         "social": (
@@ -1382,10 +1382,3 @@ GLOBAL_CONTEXT.update({
     }},  # Extra info about authors
     # "JIDN-theme": "theme-base-blue",
 })
-
-# orgmode settings.
-COMPILERS["orgmode"] = ('.org',)
-
-# Add org files to your POSTS, PAGES
-POSTS = POSTS + (("posts/*.org", "posts", "post.tmpl"),)
-PAGES = PAGES + (("pages/*.org", "pages", "page.tmpl"),)
